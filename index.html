@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Theorology - To the future we go. Together.</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">Therology</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="loginpage.html">Log in</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Therology</h1>
+                        <h3>To the future we go. Together.</h3>
+                        <hr class="intro-divider">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <style>
+                        * {box-sizing:border-box}
+                        body {font-family: Verdana,sans-serif;}
+                        .mySlides {display:none}
+
+                        /* Slideshow container */
+                        .slideshow-container {
+                          max-width: 800px;
+                          position: relative;
+                          margin: auto;
+                        }
+
+                        /* Caption text */
+                        .text {
+                          color: #f2f2f2;
+                          font-size: 15px;
+                          padding: 8px 12px;
+                          position: absolute;
+                          bottom: 8px;
+                          width: 100%;
+                          text-align: center;
+                        }
+
+                        /* Number text (1/3 etc) */
+                        .numbertext {
+                          color: #f2f2f2;
+                          font-size: 12px;
+                          padding: 8px 12px;
+                          position: absolute;
+                          top: 0;
+                        }
+
+                        /* The dots/bullets/indicators */
+                        .dot {
+                          height: 13px;
+                          width: 13px;
+                          margin: 0 2px;
+                          background-color: #bbb;
+                          border-radius: 50%;
+                          display: inline-block;
+                          transition: background-color 0.6s ease;
+                        }
+
+                        .active {
+                          background-color: #717171;
+                        }
+
+                        /* Fading animation */
+                        .fade {
+                          -webkit-animation-name: fade;
+                          -webkit-animation-duration: 1.5s;
+                          animation-name: fade;
+                          animation-duration: 1.5s;
+                        }
+
+                        @-webkit-keyframes fade {
+                          from {opacity: .4}
+                          to {opacity: 1}
+                        }
+
+                        @keyframes fade {
+                          from {opacity: .4}
+                          to {opacity: 1}
+                        }
+
+                        /* On smaller screens, decrease text size */
+                        @media only screen and (max-width: 300px) {
+                          .text {font-size: 11px}
+                        }
+                        </style>
+                        </head>
+                        <body>
+
+
+                        <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="img/lake.jpg" style="width:100%">
+                          <div class="text">Therology, to the future we go, together!</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="img/lighthouse.jpg" style="width:100%">
+                          <div class="text">We have a online chatroom, where you can talk with people around the world!</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="img/buildings.jpg" style="width:100%">
+                          <div class="text">Sign up today and get a speedy recovery, or help others to a speedy recovery. </div>
+                        </div>
+
+                        </div>
+                        <br>
+
+                        <div style="text-align:center">
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                        </div>
+
+                        <script>
+                        var slideIndex = 0;
+                        showSlides();
+
+                        function showSlides() {
+                            var i;
+                            var slides = document.getElementsByClassName("mySlides");
+                            var dots = document.getElementsByClassName("dot");
+                            for (i = 0; i < slides.length; i++) {
+                               slides[i].style.display = "none";
+                            }
+                            slideIndex++;
+                            if (slideIndex> slides.length) {slideIndex = 1}
+                            for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                            slides[slideIndex-1].style.display = "block";
+                            dots[slideIndex-1].className += " active";
+                            setTimeout(showSlides, 1900); // Change image every 5 seconds
+                        }
+                        </script>
+
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"></i> <span class="network-name">Chatroom</span></a>
+                            </li>
+                            <li>
+                                <a href="loginpage.html" class="btn btn-default btn-lg"></i> <span class="network-name">Log In</span></a>
+                            </li>
+                            <li>
+                                <a href="https://docs.google.com/document/d/1dd6bYhTMlBC2oigwAD6_unC1pWj4sY7nRZgaDtmxD_w/view" class="btn btn-default btn-lg"></i> <span class="network-name">Research</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">To the future we go, Together:<br>Therology</h2>
+                    <p class="lead">Don't let life get you down, <a target="_blank" href="http://join.deathtothestockphoto.com/">get help</a> we will heal together. Sign up, today and get help or be of assistance to those in need of your help.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/sun.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Research to Help Move Towards Coping</h2>
+                    <p class="lead">Our website also includes research to assist you with coping, we have provided an example of this, <a target="_blank" href="https://docs.google.com/document/d/1dd6bYhTMlBC2oigwAD6_unC1pWj4sY7nRZgaDtmxD_w/view">here</a>! Sign up today and get even more research today!</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/landscape.jpg" alt="">
+
+                  </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Coping and<br>Helping Others, Therology!</h2>
+                    <p class="lead">Therology is improving everyday with the help of it's community <a target="_blank" href="http://www.google.com/fonts">sign up today</a>!</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/lonetree.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Connect to Start Therology:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"> <span class="network-name">Chatroom</span></a>
+                        </li>
+                        <li>
+                            <a href="loginpage.html" class="btn btn-default btn-lg"> <span class="network-name">Log In</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"> <span class="network-name">Research</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider"></li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider"></li>
+
+                        <li class="footer-menu-divider"></li>
+                        <li>
+                            <a href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Therology Inc. 2017. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+<style>
+img {
+    border-radius: 10px;
+}
+<!--  background-color: black; -->
+</style>
+</html>
